@@ -1,10 +1,13 @@
 @import "bootstrap";
 body {
-  background-color: #fff;
-  color: #333;
+  background-color: #171c1d;
+  color: #b3ca74;
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;
   line-height: 18px;
+  input {
+    color: #000000;
+  }
 }
 
 p, ol, ul, td {
@@ -22,7 +25,7 @@ pre {
 a {
   color: #000;
   &:visited {
-    color: #666;
+    color: #3c8cc2;
   }
   &:hover {
     color: #fff;
@@ -67,4 +70,32 @@ div {
     font-size: 12px;
     list-style: square;
   }
+}
+
+.gd-tableTitle {
+  color: #af5c37;
+}
+
+.gd-topicTitle {
+  color: #3c8cc2;
+}
+
+.gd-h1 {
+  text-align: center;
+  vertical-align: middle;
+  color: blueviolet;
+  padding-top: auto;
+  padding-bottom: auto;
+  height: 100%;
+  font-size: 4em;
+}
+
+.gd-title {
+  height: 20vh;
+}
+
+.gd-newTopic {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
