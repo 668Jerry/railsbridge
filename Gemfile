@@ -5,6 +5,13 @@ source 'https://rubygems.org'
 gem 'rails', '4.1.0'
 # Use sqlite3 as the database for Active Record
 
+
+###Chun-Yi, Kuo 140611JS
+gem 'twitter-bootstrap-rails'
+gem 'compass'
+gem 'compass-rails'
+gem 'bootstrap-sass'
+###Chun-Yi, Kuo 140611JE
 ###Chun-Yi, Kuo 140610 Start
 # gem 'sqlite3'
 group :development, :test do
@@ -12,7 +19,7 @@ group :development, :test do
 end
 
 group :production do
-  gem 'pg'
+  # gem 'pg'
   gem 'rails_12factor'
 end
 ###Chun-Yi, Kuo 140610 End
