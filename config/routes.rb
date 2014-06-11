@@ -15,6 +15,7 @@ Rails.application.routes.draw do
 
   ###0610JS
     root 'topics#index'
+  
   ###0610JE
 
   # Example of regular route:
